@@ -1,0 +1,91 @@
+asgiref==3.7.2
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+attrs==22.2.0
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+certifi @ file:///C:/b/abs_4f5wo627a3/croots/recipe/certifi_1663615677642/work/certifi
+charset-normalizer==3.1.0
+colorama @ file:///C:/Windows/TEMP/abs_9439aeb1-0254-449a-96f7-33ab5eb17fc8apleb4yn/croots/recipe/colorama_1657009099097/work
+contourpy==1.0.5
+cycler==0.11.0
+DateTime==5.1
+debugpy @ file:///C:/ci/debugpy_1637091961445/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+Django==4.2.6
+einops==0.6.0
+entrypoints @ file:///C:/ci/entrypoints_1649926621128/work
+et-xmlfile==1.1.0
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+fastjsonschema==2.16.3
+fonttools==4.37.4
+idna==3.4
+imageio==2.26.0
+importlib-resources==5.12.0
+ipykernel @ file:///C:/b/abs_21ykzkm7y_/croots/recipe/ipykernel_1662361803478/work
+ipython @ file:///C:/ci/ipython_1657634415474/work
+ipywidgets==8.0.4
+jcamp==1.2.2
+jedi @ file:///C:/ci/jedi_1644315428289/work
+Jinja2==3.1.2
+joblib==1.2.0
+jsonschema==4.17.3
+jupyter-core @ file:///C:/ci/jupyter_core_1651656286743/work
+jupyter_client @ file:///C:/b/abs_8fbm7986b_/croots/recipe/jupyter_client_1662504374117/work
+jupyterlab-widgets==3.0.5
+kaleido==0.2.1
+kiwisolver==1.4.4
+MarkupSafe==2.1.2
+matplotlib==3.7.1
+matplotlib-inline @ file:///C:/ci/matplotlib-inline_1661915841596/work
+nbformat==5.7.3
+nest-asyncio @ file:///C:/ci/nest-asyncio_1649829929390/work
+networkx==3.2.1
+numpy==1.23.3
+opencv-python==4.8.0.76
+openpyxl==3.1.2
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.5.1
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==9.2.0
+plotly==5.13.1
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+psutil @ file:///C:/Windows/Temp/abs_b2c2fd7f-9fd5-4756-95ea-8aed74d0039flsd9qufz/croots/recipe/psutil_1656431277748/work
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pybmrb==3.0.8
+Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
+pynmrstar==3.3.2
+pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
+pyrsistent==0.19.3
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz==2022.6
+pywin32==302
+pyzmq @ file:///C:/ci/pyzmq_1657615952984/work
+rdkit==2023.9.2
+requests==2.28.2
+scikit-learn==1.1.3
+scipy==1.9.3
+seaborn==0.12.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sqlparse==0.4.4
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+tenacity==8.2.2
+threadpoolctl==3.1.0
+torch @ file:///E:/Edge%E4%B8%8B%E8%BD%BD/torch-1.10.0%2Bcu113-cp39-cp39-win_amd64.whl
+torch-cluster @ file:///E:/Edge%E4%B8%8B%E8%BD%BD/torch_cluster-1.5.9-cp39-cp39-win_amd64.whl
+torch-geometric==2.2.0
+torch-scatter @ file:///E:/Edge%E4%B8%8B%E8%BD%BD/torch_scatter-2.0.9-cp39-cp39-win_amd64.whl
+torch-sparse @ file:///E:/Edge%E4%B8%8B%E8%BD%BD/torch_sparse-0.6.12-cp39-cp39-win_amd64.whl
+torch-spline-conv @ file:///E:/Edge%E4%B8%8B%E8%BD%BD/torch_spline_conv-1.2.1-cp39-cp39-win_amd64.whl
+torchmetrics==0.11.4
+torchvision @ file:///E:/Edge%E4%B8%8B%E8%BD%BD/torchvision-0.11.1%2Bcu113-cp39-cp39-win_amd64.whl
+tornado @ file:///C:/ci/tornado_1662458743919/work
+tqdm==4.65.0
+traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+typing_extensions==4.3.0
+tzdata==2023.3
+urllib3==1.26.15
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+widgetsnbextension==4.0.5
+wincertstore==0.2
+zipp==3.15.0
+zope.interface==6.0
