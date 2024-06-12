@@ -1,5 +1,8 @@
 # NMRformer
-use ‘pip install -r requirements.txt’ to create nmrformer environment
+### Environment
+python 3.9.13
+torch 1.10.0+cu113
+
 
 ### Input
 ### The uploaded files include:
