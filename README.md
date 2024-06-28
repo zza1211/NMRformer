@@ -1,4 +1,6 @@
 # NMRformer
+Metabolite identification from 1D 1H NMR spectra is a major challenge in NMR-based metabolomics. This study introduces NMRformer, a Transformer-based deep learning framework for accurate peak assignment and metabolite identification in 1D 1H NMR spectroscopy.
+
 ### Environment
 python 3.9.13
 torch 1.10.0+cu113
