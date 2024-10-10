@@ -8,14 +8,14 @@ class dataGene():
         # super.__init__()
         self.allmeta=allMeta
     def test_m(self,model_pth,spectra,peaks):
-        device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        # device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         nmrf = NMRformer(
             input_dim = 128,
             num_classes = 72,
             dim = 256,
             mlp_dim = 512
-        ).to(device)
-        nmrf.load_state_dict(torch.load(model_pth))
+        ).to('cpu')
+        nmrf.load_state_dict(torch.load(model_pth,map_location=torch.device('cpu')))
         nmrf=nmrf.eval()
         sorted_peak=sorted(peaks)
         out_csv=pd.DataFrame({'peak':sorted_peak})
@@ -43,7 +43,7 @@ class dataGene():
         peak_emb=peak_emb+pe
         input=torch.Tensor(peak_emb).unsqueeze(0)
         con=torch.Tensor(con).unsqueeze(0)
-        output1=nmrf(input.cuda(),con.cuda())
+        output1=nmrf(input,con)
         prob=torch.softmax(output1[0],dim=1)
         valuesp, indicesp = torch.topk(prob, k=3,dim=1)
         out_csv['pred_0']=self.indices_to_meta(indicesp[0][0].tolist())
