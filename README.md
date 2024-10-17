@@ -4,6 +4,12 @@ Metabolite identification from 1D 1H NMR spectra is a major challenge in NMR-bas
 ### Environment
 python 3.9.13
 torch 1.10.0+cu113
+you can use this comand to download torch : "pip install torch==1.10.0+cpu torchvision==0.11.0+cpu torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html"
+use this comand to download numpy : "pip install numpy==1.26.4"
+use this comand to download pandas : "pip install pandas==1.5.1"
+use these comands to download plotly : "pip install plotly" and "pip install --upgrade nbformat"
+use this comand to download scipy : "pip install scipy"
+use this comand to download einops : "pip install einops"
 
 
 ### Input
